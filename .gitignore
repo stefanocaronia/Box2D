@@ -1,2 +1,7 @@
 Build/
 imgui.ini
+lib/
+obj/
+*.vcxproj
+*.filters
+Makefile
