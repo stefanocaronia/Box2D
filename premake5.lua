@@ -11,6 +11,9 @@ project 'Box2D'
 	files { 'Box2D/**' }
     includedirs { '.' }
 
+    configuration { "gmake2" }
+        targetextension (".a")
+
     makesettings [[
         CC = g++
     ]]
